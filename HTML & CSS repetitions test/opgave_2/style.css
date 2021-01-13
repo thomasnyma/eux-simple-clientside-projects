@@ -1,0 +1,59 @@
+/* Tested in Chrome, Firefox, Opera and Edge(New version) */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+
+.navigation {
+    background-color: #5c93c4;
+    height: 5vh;
+}
+
+.header {
+    background-color: #bad5ea;
+    display: grid;
+    height: 40vh;
+    place-items: center;
+}
+
+.feature-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 60vh;
+}
+
+.feature {
+    background-color: #bad5ea;
+    display: grid;
+    place-items: center;
+}
+
+.feature:nth-child(1) {
+    background-color: #f3d08c;
+}
+
+.feature:nth-child(2) {
+    background-color: #c8c4df;
+}
+
+.feature:nth-child(3) {
+    background-color: #f0999f;
+}
+
+.sign-up {
+    background-color: #d7e9f7;
+    display: grid;
+    place-items: center;
+    height: 20vh;
+}
+
+.content {
+    background-color: #e9ecf1;
+    display: grid;
+    place-items: center;
+    height: 60vh;
+}

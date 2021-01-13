@@ -1,0 +1,49 @@
+/* Tested in Chrome, Firefox, Opera and Edge(New version) */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+#GalleriContainer {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+#Galleri {
+    width: 100%;
+    background-color: #000;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+#KnapTilbage, #KnapFrem {
+    cursor: pointer;
+    background-color: #fff;
+}
+
+#GalleriBillede {
+    width: 100%;
+}
+
+#GalleriThumbnails {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#GalleriThumbnails a {
+    width: 20px;
+    height: 20px;
+    background-color: rgba(114, 114, 114, 0.288);
+    margin: 10px;
+    float: left;
+    cursor: pointer;
+}

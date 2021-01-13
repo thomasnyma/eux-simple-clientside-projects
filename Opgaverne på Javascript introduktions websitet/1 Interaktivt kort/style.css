@@ -1,0 +1,49 @@
+/* Tested in Chrome, Firefox, Opera and Edge(New version) */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    display: grid;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    place-items: center;
+    height: 100vh;
+}
+
+#ImgTagBillede {
+    width: 800px;
+}
+
+#DivKassePunkt1 {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    opacity: .6;
+    position: relative;
+    top: -235px;
+    left: 345px;
+}
+
+#DivKassePunkt1:hover, #DivKassePunkt2:hover {
+    cursor: pointer;
+}
+
+#DivKassePunkt2 {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    opacity: .6;
+    position: relative;
+    top: -180px;
+    left: 345px;
+}
+
+#DivKasseInfo {
+    height: 1rem;
+    font-size: 1rem;
+}
+
+#PTag1, #PTag2 {
+    display: none;
+}

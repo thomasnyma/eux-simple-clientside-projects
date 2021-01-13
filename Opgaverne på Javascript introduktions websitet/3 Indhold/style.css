@@ -1,0 +1,16 @@
+/* Tested in Chrome, Firefox, Opera and Edge(New version) */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.info > div {
+    display: none;
+}

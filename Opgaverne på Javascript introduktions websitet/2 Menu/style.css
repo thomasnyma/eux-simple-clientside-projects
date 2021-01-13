@@ -1,0 +1,23 @@
+/* Tested in Chrome, Firefox, Opera and Edge(New version) */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+#HovedMenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.active {
+    background-color: red;
+}
